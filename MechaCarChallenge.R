@@ -9,7 +9,6 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mecha_car_mpg)) 
 
-
 # Deliverable 2: Create Visualizations for the Trip Analysis
 
 suspension_coil_data <- read.csv(file='./Suspension_Coil.csv',check.names=F,stringsAsFactors = F) 
