@@ -31,3 +31,19 @@
 - Looking at the total summary, the variance is `62.29`, so clearly the suspension coils do not exceed 100 pounds per square inch on the whole.
 
 - When looking at the summary by lot, Lot 1 and Lot 2 are well within the variance limit, however Lot 3 exceeds the limit with a variance value of `170.29`. So we can see Lot 3 is skewing the data for all lots significantly.
+
+## T-Tests on Suspension Coils
+
+### T-test for all lots
+
+<img alt="t-test total" title="t-test total" src="https://github.com/brown-rox20/MechaCar_Statistical_Analysis/blob/main/static/images/deliverable_3_total.png">
+
+When performing a `t-test` on all lots we see a mean of `1498.78`, which is very close to the `1500` benchmark. With the level of signifigance at `0.05`, and our `p-value` ending up being close but higher at `0.06`, the null hypothesis cannot be rejected.
+
+### T-tests for each lot
+
+<img alt="t-test by lot" title="t-test by lot" src="https://github.com/brown-rox20/MechaCar_Statistical_Analysis/blob/main/static/images/deliverable_3_by_lot.png">
+
+Lot 1 and Lot 2 have very similar means of `1500` and `1500.2`, and a `p-value` of `1` and `0.61` respectively. We can safely conclude that we fail to reject the null hypothesis in these cases.
+
+However, Lot 3 has a mean of `1496.14` and a `p-value` of `0.04`, which is lower than the `0.05` level of signifigance and therefore we can reject the null hypothesis.
