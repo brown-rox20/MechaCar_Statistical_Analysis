@@ -1,5 +1,9 @@
 # MechaCar_Statistical_Analysis
 
+### Background
+
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
 ## Linear Regression to Predict MPG
 
 <img alt="summary of linear progression of mpg" title="summary of linear progression of mpg" src="https://github.com/brown-rox20/MechaCar_Statistical_Analysis/blob/main/static/images/deliverable_1.png">
